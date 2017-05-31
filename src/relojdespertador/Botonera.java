@@ -43,13 +43,18 @@ public class Botonera {
      * Sume 1 hour
      */
     public void plusHr(){
+     
+    }
     /**
      * Sume 1 minute
-     */    
-    }
+     */   
     public void plusMin(){
         
     }
+    /**
+     * Stop the alarm
+     * @return ringOn
+     */
     public boolean stopAlarm(){
         return ringON=false;
     }
